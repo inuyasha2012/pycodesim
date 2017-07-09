@@ -6,6 +6,8 @@ A Python Code Similarity Detection Doll， just for fun. 用于计算python代�
 
 ## demo
 ```
+from pycodesim import code_sim
+
 code_sim('codes/code1.py', 'codes/code2.py', 'jaccard')
 code_sim('codes/code1.py', 'codes/code2.py', 'tree_edit')
 code_sim('codes/code1.py', 'codes/code2.py', 'fake_anti_uni')
