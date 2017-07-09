@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pycodesim',
-    version='0.0.',
+    version='0.0.1',
     packages=['pycodesim'],
     url='https://github.com/inuyasha2012/pycodesim',
     license='MIT',
